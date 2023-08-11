@@ -29,10 +29,11 @@ let s:type="#bb77ff"
 let s:var="#9595ff"
 let s:warning="#f955e0"
 let s:warning2="#fb0492"
+let s:cursorline="#111111"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
-exe 'hi CursorLine  guibg='s:bg2
+exe 'hi CursorLine  guibg='s:cursorline
 exe 'hi CursorLineNr guifg='s:str' guibg='s:bg
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
