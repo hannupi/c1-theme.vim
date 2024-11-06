@@ -1,6 +1,6 @@
 " Vim color file
 " c1-theme
-" Created by github.com/h4np 
+" Created by github.com/hannupi
 hi clear
 
 if exists("syntax on")
